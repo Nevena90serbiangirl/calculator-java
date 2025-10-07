@@ -1,18 +1,18 @@
 SCENARIO	                            ULAZ	                                    OCEKIVANI REZULTAT	                                                   ZAPAZANJE
-SABIRANJE	                            2+3	                                             5.0	                                                    DA LI SABIRA DVA BROJA: DA
+SABIRANJE	                            2+3	                                             5.0	                                                DA LI SABIRA DVA BROJA: DA
 ODUZIMANJE	                          10-4	                                           6.0	                                                    DA LI ODUZIMA DVA BROJA: DA
 MNOZENJE IMA PRIORITET	              2+3*4	                                           14.0	                                                    DA LI MNOZENJE IMA PREDNOST: DA
-SLOZENI IZRAZ	                        20-6/2	                                         17.0	                                                    KOMBINACIJA OPERACIJA: DA
-DELJENJE	                            8/2	                                             4.0	                                                    DA
-DELJENJE SA OSTATKOM	                7/2	                                             3.5                                                      DA
+SLOZENI IZRAZ	                        20-6/2	                                         17.0	                                                KOMBINACIJA OPERACIJA: DA
+DELJENJE	                            8/2	                                             4.0	                                                DA
+DELJENJE SA OSTATKOM	                7/2	                                             3.5                                                    DA
 NEGATIVNI BROJEVI                    -3+5                                              2.0                                                      DA
-	                                   -2*-3	                                           6.0	                                                    NE
-SABIRANJE SLOVA	                      ABC+5	                                           ERROR	                                                  ERROR
-DUPLI OPERATOR	                      5+(+2)	                                         7	                                                      ERROR
+	                                   -2*-3	                                           6.0	                                                NE
+SABIRANJE SLOVA	                      ABC+5	                                           ERROR	                                                ERROR
+DUPLI OPERATOR	                      5+(+2)	                                         7	                                                    ERROR
 DELJENJE SA NULOM                     5/0                                       CANNOT DIVIDE BY ZERO                                           INFINITY
 NULA PODELJENA SA NULOM	              0/0                                       RESULT IS UNDEFINED	                                            NAN
-PRIORITET ZAGRADA	                    (2+3)*4	                                         20	                                                      DA LI PODRZAVA ZAGRADE:NE
-DA LI PODRZAVA VELIKE BROJEVE 	1_000_000*1_000_000	                              10,000,000,000	                                              NE
+PRIORITET ZAGRADA	                    (2+3)*4	                                         20	                                                    DA LI PODRZAVA ZAGRADE:NE
+DA LI PODRZAVA VELIKE BROJEVE 	1_000_000*1_000_000	                              10,000,000,000	                                            NE
 EKSTREMNO MALI BROJEVI	        0.00001/0.00001	                                       1.0	                                                    DA
 			
 
